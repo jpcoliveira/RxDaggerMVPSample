@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.io.File;
 
-import jafreela.com.br.rxdaggermvpsample.deps.DaggerSampleComponent;
-import jafreela.com.br.rxdaggermvpsample.deps.SampleComponent;
+import jafreela.com.br.rxdaggermvpsample.component.DaggerSampleComponent;
+import jafreela.com.br.rxdaggermvpsample.component.SampleComponent;
 import jafreela.com.br.rxdaggermvpsample.networking.NetworkModule;
 import jafreela.com.br.rxdaggermvpsample.source.PreferenceModule;
 

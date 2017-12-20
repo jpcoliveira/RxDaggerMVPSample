@@ -1,4 +1,4 @@
-package jafreela.com.br.rxdaggermvpsample.deps;
+package jafreela.com.br.rxdaggermvpsample.component;
 
 import javax.inject.Singleton;
 
