@@ -21,7 +21,7 @@ public class HomeActivityTest {
             mActivityRule = new ActivityTestRule<>(HomeActivity.class, false, true);
 
     @Test
-    public void whenActivityIsLaunched_shouldDisplayInitialState() throws InterruptedException {
+    public void whenListisDisplayed_checkCountry() throws InterruptedException {
         new HomeActivityRobot()
                 .clickLastElement()
                 .checkItem();
