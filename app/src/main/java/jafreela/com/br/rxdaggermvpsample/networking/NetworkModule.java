@@ -60,13 +60,15 @@ public class NetworkModule {
 
 
         return new Retrofit.Builder()
-                .baseUrl(BuildConfig.BASEURL)
+                .baseUrl(BASEURL)
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .build();
     }
+
+    public static String BASEURL = "http://private-b8cf44-androidcleancode.apiary-mock.com/";
 
     @Provides
     @Singleton
