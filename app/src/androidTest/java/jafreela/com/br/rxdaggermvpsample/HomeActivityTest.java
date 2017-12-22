@@ -21,10 +21,9 @@ public class HomeActivityTest {
             mActivityRule = new ActivityTestRule<>(HomeActivity.class, false, true);
 
     @Test
-    public void whenActivityIsLaunched_shouldDisplayInitialState() {
+    public void whenActivityIsLaunched_shouldDisplayInitialState() throws InterruptedException {
         new HomeActivityRobot()
-                .checkProgress()
-                .checkList()
-                .clickFirstElementList();
+                .clickLastElement()
+                .checkItem();
     }
 }
